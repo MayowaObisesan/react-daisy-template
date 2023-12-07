@@ -12,10 +12,8 @@ export async function appLoader() {
 function Home() {
     const navigation = useNavigation();
     const accessToken = window.localStorage.getItem('nine_login');
-    //    const setTokenDataStore = useSetAtom(tokenState);
     const scrollContainerRef = useRef(null);
     const [latestAppsCount, setLatestAppsCount] = useState(10);
-    // const [hasNextPage, setHasNextPage] = useState(false);
     const [isFetchingLatestApps, setIsFetchingLatestApps] = useState(false);
     const [fetchMoreLatestApps, setFetchMoreLatestApps] = useState(false);
 
@@ -99,12 +97,6 @@ function Home() {
                     : null
             }
             <HomeCarousel />
-            {/*<InstallPWA />*/}
-            {/*<HomeBanner />*/}
-            {/*<LatestAppsFragment listCount={latestAppsCount} fetchData={handleFetchData} fetchMoreData={fetchMoreLatestApps}></LatestAppsFragment>*/}
-
-            {/* <ScrollRestoration /> */}
-            {/* <Outlet /> */}
         </div>
     )
 }
