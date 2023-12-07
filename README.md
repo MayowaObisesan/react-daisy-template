@@ -1,4 +1,8 @@
-# Getting Started with Create React App
+# PROJECT DESCRIPTION
+
+This project gets you started with a basic folder structure and with helpers and hooks needed for most projects.
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
